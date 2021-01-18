@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>André P.M</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <!--Menu Browser-->
+        <nav class="menu">
+            <ul>
+            <li class ="Texto"><a href="#perfil">Contato</a></li>
+            <li class="Texto"><a href="#Ob_Prof">Objetivo Profissional</a></li>
+            <li class="Texto"><a href="#Fr">Formação</a></li>
+            <li class="Texto"><a href="pages/linguagens.html">Linguagens</a></li>
+            <li class="Texto"><a href="#Atv_Comp">Atividades Complementares</a></li>
+            </ul>
+        </nav>
+    <!--Menu Mobile-->
+        <div class="topnav">
+                <div class="active">  </a>
+                <div id="myLinks">
+                          <a href="#perfil">Contato</a>
+                          <a href="#Ob_Prof">Objetivo Profissional</a>
+                          <a href="#Fr">Formação</a>
+                          <a href="pages/linguagens.html">Linguagens</a>
+                          <a href="#Atv_comp">Atividades Complementares</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+                </div>
+            </div>
+    </header>
+
+    <main>
+
+        <section class="perfil" id="perfil">
+            <img id="profile" src="assets/profile.jpg" alt="Foto de Perfil">
+        </section>
+
+        <section  class="Nome">
+                <h1>André Pereira Martins</h1>
+        </section>
+
+        <section id="Informacoes" class="Info">
+            <p> Solteiro, 19 anos, Brasileiro <br>
+                Contato: <br>
+            </p>
+            <a href="tel: 48998364277"><img id="wwp_logo" src="assets/whatsapp-logo.png" title="Whatsapp" alt="whatsapp"></a>
+            <a href="http://linkedin.com/in/andrépm" target="_blank"><img id="link_logo" src="assets/linkedin-logo.png" title="Perfil linkedin" alt="linkedin"></a>
+            <a href="mailto: andre.pereira.martins100@gmail.com"><img id="email_logo" src="assets/arroba.png" title="E-mail" alt="e-mail"></a>
+        </section>
+
+        <section id="Ob_Prof" class="Texto">
+            <h3>Objetivo Profissional</h3>
+            <p>Pretendo atuar na área de T.I inicialmente por meio de um estágio na linguagem Java e ir me desenvolvendo com as oportunidades que surgirem na empresa.</p>
+        </section>
+        
+        <section id="Fr" class="Texto">
+                <h3>Formação Escolar</h3>
+                <p>Ensino Médio Técnico integrado em Informática - Instituto Federal de Santa Catarina - Campus Gaspar - SC - Novembro/2020.</p>
+        </section>
+
+        <section id="Cursos" class="Texto">
+                    <h3>Cursos</h3>
+                    <p>Projeto Entra21 Blusoft - Java / JavaScript: (Previsão de Término Fevereiro/2021) <br>
+                            Carga Horária 480 h. <br>
+                            <br>
+                            Inglês - KNN (Blumenau): Dezembro/2020 <br>
+                            Carga Horária 252 h. <br>
+                            </p>
+        </section>
+            
+        <section id="Atv_Comp" class="Texto">
+                <h3>Atividades Complementares</h3>
+                <p>Trabalho Voluntário na VI SERNEGRA – Gaspar – SC. <br>
+                        (09/11/2017 a 11/11/2017) - 30 h. <br>
+                        <br>
+                        Apresentação no Seminário na VII SERNEGRA – Brasília – DF. <br>
+                        (18/11/2018 a 21/11/2018) - 30h. <br>
+                        <br>
+                        Apresentação no Seminário na VIII SERNEGRA – Salvador – BA. <br>
+                        (26/11/2019 a 29/11/2019) - 30h. <br>
+                        </p>
+        </section>
+
+        </section>
+        <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+                 x.style.display = "block";
+                }
+        }
+        </script>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
