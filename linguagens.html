@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Linguagens</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <!--Menu Browser-->
+      <nav class="menu">
+            <ul>
+            <li class ="Texto"><a href="./index.html">Home</a></li>
+            <li class ="Texto"><a href="#Java">Java</a></li>
+            <li class ="Texto"><a href="#JavaScript">Javascript</a></li>
+            <li class ="Texto"><a href="#Html_Css">HTML e CSS</a></li>
+            </ul>
+        </nav>
+    <!--Menu Mobile-->
+        <div class="topnav">
+                <div class="active">  </a>
+                <div id="myLinks">
+                          <a href="./index.html">Home</a>
+                          <a href="#Java">Java</a>
+                          <a href="#JavaScript">Javascript</a>
+                          <a href="#Html_Css">HTML e CSS</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="Texto" id="Java"> 
+            <img id="java_logo" src="./assets/java-logo.png" alt="Java Logo">
+            <h3 class="TitleL">Java</h3> <br>
+            <p>Iniciei a linguagem no técnico dando continuidade no entra 21.<br>
+                Sendo assim, tenho conhecimento intermediário nas ides e na lógica da linguagem.
+            </p>
+        </section>
+
+        <section class="Texto" id="JavaScript">
+            <img id="JavaScript_Logo" src="./assets/javascript-logo.png" alt="JavaScript Logo">
+            <h3 class="TitleL">Javascript</h3> <br>
+            <p>Tive meu primeiro contato quando iniciei no entra 21.</p>
+        </section>
+            
+        <section class="Texto" id="Html_Css" >
+                <img id="HTMl_CSS_Logo" src="./assets/htmlecss.png" alt="html e css Logo">
+                <h3 class="TitleL">HTMl e CSS</h3> <br>
+                <p>Me identifico muito com design. Por essa razão, sigo aprimorando minhas práticas assistindo vídeoaulas e descobrindo novas técnicas.</p>
+                <br><br><br>
+            </section>
+            
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                            }
+                    }
+                    </script>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
